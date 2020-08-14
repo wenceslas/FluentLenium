@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>fluentlenium-examples-test-pic</artifactId>
-    <groupId>org.fluentlenium</groupId>
-    <version>4.3.2-SNAPSHOT</version>
+    <artifactId>test-pic</artifactId>
+    <groupId>fr.gouv.finances.soda.example</groupId>
+    <version>4.4.2-SNAPSHOT</version>
 
-    <name>FluentLenium Examples Spring</name>
+    <name>Pic IHM tests</name>
 
     <properties>
         <fluentlenium.version>${project.version}</fluentlenium.version>

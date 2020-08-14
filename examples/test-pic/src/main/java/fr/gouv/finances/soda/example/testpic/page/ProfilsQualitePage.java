@@ -1,4 +1,4 @@
-package org.fluentlenium.example.spring.page;
+package fr.gouv.finances.soda.example.testpic.page;
 
 import org.fluentlenium.core.FluentPage;
 import org.fluentlenium.core.annotation.PageUrl;
@@ -7,10 +7,10 @@ import org.openqa.selenium.support.FindBy;
 
 import static org.fluentlenium.assertj.FluentLeniumAssertions.assertThat;
 
-@PageUrl("/javadoc")
-public class JavadocPage extends FluentPage {
+@PageUrl("/profiles")
+public class ProfilsQualitePage extends FluentPage {
 
-    @FindBy(className = "contentContainer")
+    @FindBy(className = "page-container")
     private FluentWebElement content;
 
    public void verifyIfIsLoaded() {

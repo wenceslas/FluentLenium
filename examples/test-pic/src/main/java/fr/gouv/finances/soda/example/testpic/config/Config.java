@@ -1,4 +1,4 @@
-package org.fluentlenium.example.spring.config;
+package fr.gouv.finances.soda.example.testpic.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

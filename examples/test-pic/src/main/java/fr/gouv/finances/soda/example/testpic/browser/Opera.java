@@ -1,4 +1,4 @@
-package org.fluentlenium.example.spring.config.browser;
+package fr.gouv.finances.soda.example.testpic.browser;
 
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.remote.DesiredCapabilities;

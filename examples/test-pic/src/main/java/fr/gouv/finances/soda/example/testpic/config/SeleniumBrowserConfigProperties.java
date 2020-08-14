@@ -1,4 +1,4 @@
-package org.fluentlenium.example.spring.config;
+package fr.gouv.finances.soda.example.testpic.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

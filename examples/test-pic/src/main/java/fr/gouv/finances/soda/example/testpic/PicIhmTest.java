@@ -1,11 +1,9 @@
-package org.fluentlenium.example.spring;
+package fr.gouv.finances.soda.example.testpic;
 
-import io.appium.java_client.AppiumDriver;
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import org.fluentlenium.adapter.junit.FluentTest;
-import org.fluentlenium.example.spring.config.Config;
-import org.fluentlenium.example.spring.config.ConfigException;
-import org.fluentlenium.example.spring.config.SeleniumBrowserConfigProperties;
-import org.fluentlenium.example.spring.config.browser.IBrowser;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
@@ -18,14 +16,17 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
-import java.net.MalformedURLException;
-import java.net.URL;
+import fr.gouv.finances.soda.example.testpic.browser.IBrowser;
+import fr.gouv.finances.soda.example.testpic.config.Config;
+import fr.gouv.finances.soda.example.testpic.config.ConfigException;
+import fr.gouv.finances.soda.example.testpic.config.SeleniumBrowserConfigProperties;
+import io.appium.java_client.AppiumDriver;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(loader = AnnotationConfigContextLoader.class, classes = Config.class)
-public class ExampleFluentTest extends FluentTest {
+public class PicIhmTest extends FluentTest {
 
-    private static final Logger log = LoggerFactory.getLogger(ExampleFluentTest.class);
+    private static final Logger log = LoggerFactory.getLogger(PicIhmTest.class);
 
     @Autowired
     private SeleniumBrowserConfigProperties config;

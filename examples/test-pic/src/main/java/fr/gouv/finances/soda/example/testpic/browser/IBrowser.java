@@ -1,7 +1,8 @@
-package org.fluentlenium.example.spring.config.browser;
+package fr.gouv.finances.soda.example.testpic.browser;
 
-import org.fluentlenium.example.spring.config.ConfigException;
 import org.openqa.selenium.Capabilities;
+
+import fr.gouv.finances.soda.example.testpic.config.ConfigException;
 
 import java.util.Map;
 

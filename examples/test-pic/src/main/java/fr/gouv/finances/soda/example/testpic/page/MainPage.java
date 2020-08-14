@@ -1,4 +1,4 @@
-package org.fluentlenium.example.spring.page;
+package fr.gouv.finances.soda.example.testpic.page;
 
 import org.fluentlenium.core.FluentPage;
 import org.fluentlenium.core.annotation.PageUrl;
@@ -10,10 +10,10 @@ import static org.fluentlenium.assertj.FluentLeniumAssertions.assertThat;
 @PageUrl("/")
 public class MainPage extends FluentPage {
 
-    @FindBy(linkText = "Selenium")
-    private FluentWebElement seleniumLink;
+    @FindBy(linkText = "Projets")
+    private FluentWebElement projetsLink;
 
-    @FindBy(className = "whats-fluentlenium")
+    @FindBy(className = "about-page-projects-link")
     private FluentWebElement content;
 
     public MainPage verifyIfIsLoaded() {
@@ -21,7 +21,7 @@ public class MainPage extends FluentPage {
         return this;
     }
 
-    public void clickOnSeleniumLink() {
-        seleniumLink.click();
+    public void clickOnProjetsLink() {
+        projetsLink.click();
     }
 }

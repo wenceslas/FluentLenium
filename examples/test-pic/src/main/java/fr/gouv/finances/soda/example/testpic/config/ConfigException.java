@@ -1,4 +1,4 @@
-package org.fluentlenium.example.spring.config;
+package fr.gouv.finances.soda.example.testpic.config;
 
 /**
  * Thrown when something wrong occurs with the configuration

@@ -611,6 +611,12 @@
                 <module>examples/quickstart-firefox</module>
                 <module>examples/quickstart-microsoft-browsers</module>
                 <module>examples/appium</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>testpic</id>
+            <modules>
                 <module>examples/test-pic</module>
             </modules>
         </profile>

@@ -4,19 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>fluentlenium-examples-appium</artifactId>
+    <artifactId>fluentlenium-examples-test-pic</artifactId>
     <groupId>org.fluentlenium</groupId>
-    <version>4.4.2-SNAPSHOT</version>
+    <version>4.3.2-SNAPSHOT</version>
 
-    <name>FluentLenium Examples Appium</name>
-    <description>FluentLenium Appium examples</description>
-    <url>https://github.com/FluentLenium/FluentLenium</url>
+    <name>FluentLenium Examples Spring</name>
 
     <properties>
-        <!-- Configure this property to latest available version -->
         <fluentlenium.version>${project.version}</fluentlenium.version>
         <spring.version>5.2.4.RELEASE</spring.version>
-        <!-- Make sure the selenium.version won't be overriden by another pom.xml -->
         <selenium.version>3.141.59</selenium.version>
     </properties>
 
@@ -56,6 +52,36 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-safari-driver</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-ie-driver</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-edge-driver</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-opera-driver</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>7.3.0</version>
@@ -87,5 +113,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>

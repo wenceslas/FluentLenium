@@ -23,7 +23,8 @@
         <module>fluentlenium-coverage-report</module>
     </modules>
 
-    <name>FluentLenium</name>
+   >
+    <module></module> <name>FluentLenium</name>
     <description>FluentLenium makes the writing of acceptance testing more easy and in a fluent way using the power of
         css selectors. Build upon Selenium WebDriver.
 
@@ -384,7 +385,6 @@
                         </excludes>
                     </configuration>
                 </plugin>
-                
                 <plugin>
                 <groupId>org.eclipse.m2e</groupId>
                 <artifactId>lifecycle-mapping</artifactId>
@@ -611,7 +611,7 @@
                 <module>examples/quickstart-firefox</module>
                 <module>examples/quickstart-microsoft-browsers</module>
                 <module>examples/appium</module>
-                <module>examples/test-pic</module>
+ 				<module>examples/testpic</module>
             </modules>
         </profile>
 
